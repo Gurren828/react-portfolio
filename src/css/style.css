@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+strong {
+    color: #eee;
+}
+
+body {
+    margin: auto;
+    margin-top: 0px;
+    background-image: url("/assets/images/concrete_seamless.png");
+    padding-bottom: 100px;
+}
+
+.top-container {
+    width: 100%;
+    z-index: 1;
+    background: #ffffff;
+    display: flex;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: #cccccc;
+    margin-bottom: 40px;
+}
+
+.header-container{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teal-header {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #8a7bad;
+    height: 90px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 35px 0 35px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: #dddddd;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}    
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #cccccc;
+    font-weight: 550;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.hr1 {
+    border-top: 2px solid;
+    border-color: #dddddd;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: #777777;
+    padding-bottom: 50px;
+}
+
+.main-container {
+    background: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 10px 30px 10px 30px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.content-header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8a7bad;
+}
+
+img {
+    align-self: baseline;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    position: relative;
+    height: 210px;
+    margin: 0 10px 25px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#absolute {
+    position: absolute;
+    bottom: 40px;
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    background: #8a7bad;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #777777;
+    color: #dddddd;
+    padding: 30px 0 5px 0;
+    margin-bottom: 0;
+    border-top: 8px solid #8a7bad;
+}
